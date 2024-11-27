@@ -1,0 +1,13 @@
+{
+  "package_name": "custom_action_interfaces",
+  "output_dir": "/home/silver/ros2_pmi_tutorials/Intermidiate/ros2_ws/build/custom_action_interfaces/rosidl_generator_type_description/custom_action_interfaces",
+  "idl_tuples": [
+    "/home/silver/ros2_pmi_tutorials/Intermidiate/ros2_ws/build/custom_action_interfaces/rosidl_adapter/custom_action_interfaces:action/Fibonacci.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/rolling/share/service_msgs",
+    "builtin_interfaces:/opt/ros/rolling/share/builtin_interfaces",
+    "action_msgs:/opt/ros/rolling/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/rolling/share/unique_identifier_msgs"
+  ]
+}
