@@ -117,6 +117,7 @@ Topic information: Topic: /turtle1/cmd_vel | Type: geometry_msgs/msg/Twist | Cou
 ros2 bag play bag
 ```
 После этого черепашка повторит свой записанный путь:
+
 ![alt text](image-2.png)
 
 ### Запись услуг
