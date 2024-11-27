@@ -33,27 +33,3 @@ rqt_graph
 на графике мы увидим следующее 
 
 ![alt text](image.png)
-
-Функция выделения в `rqt_graph` очень полезна при изучении более сложных систем с большим количеством узлов и тем, связанных между собой различными способами.
-
-`rqt_graph` - это графический инструмент интроспекции. Теперь мы рассмотрим некоторые инструменты командной строки для интроспекции тем.
-
-Выполнив команду `ros2 topic list` в новом терминале, вы получите список всех тем, активных в данный момент в системе:
-```bash
-/parameter_events
-/rosout
-/turtle1/cmd_vel
-/turtle1/color_sensor
-/turtle1/pose
-```
-
-`ros2 topic list -t` вернет тот же список тем, но с указанием типа темы в скобках:
-```bash
-/parameter_events [rcl_interfaces/msg/ParameterEvent]
-/rosout [rcl_interfaces/msg/Log]
-/turtle1/cmd_vel [geometry_msgs/msg/Twist]
-/turtle1/color_sensor [turtlesim/msg/Color]
-/turtle1/pose [turtlesim/msg/Pose]
-```
-
-Чтобы просмотреть данные, опубликованные по той или иной теме, используйте:
